@@ -1,0 +1,15 @@
+server:
+  port: 8080
+#  port: ${PORT:0}
+  error:
+    include-message: always
+
+spring:
+  application:
+    name: bs-customer
+  data:
+    mongodb:
+      host: localhost
+      port: 27017
+      database: bs-customer
+

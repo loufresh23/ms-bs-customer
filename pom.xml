@@ -9,10 +9,10 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.lou</groupId>
-    <artifactId>ms-customer</artifactId>
+    <artifactId>ms-bs-customer</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>ms-customer</name>
-    <description>ms-customer</description>
+    <name>ms-bs-customer</name>
+    <description>ms-bs-customer</description>
     <properties>
         <java.version>17</java.version>
     </properties>
@@ -25,7 +25,6 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-webflux</artifactId>
         </dependency>
-
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-devtools</artifactId>
